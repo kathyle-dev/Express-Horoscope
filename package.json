@@ -1,0 +1,24 @@
+{
+  "name": "express-memory-card",
+  "version": "1.0.0",
+  "description": "using express to create a back end server for my existing memory card game project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kathyle-dev/Express-Memory-Card.git"
+  },
+  "author": "kathy le",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kathyle-dev/Express-Memory-Card/issues"
+  },
+  "homepage": "https://github.com/kathyle-dev/Express-Memory-Card#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "figlet": "^1.5.0",
+    "nodemon": "^2.0.4"
+  }
+}
