@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mind Tracker</title>
+  <link rel="stylesheet" href="/font-awesome.min.css">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <section class="container">
+    <section class="top">
+      <h1>HOROSCOPE</h1>
+      <p>See what today has in store.</p>
+  </section>
+
+<section class="sign">
+<% for(var i=0; i<sign.length; i++) {%>
+    <img id="signImg"src=<%= "" + sign[i].src %> >
+    <section class="info">
+    <span id="signName"><%= sign[i].name %></span>
+    <p id="signP"><%= sign[i].p %></p>
+    <a href="/"><button id="home"type="button">Home!</button></a>
+  </section>
+
+<% } %>
+</section>
+<h2>Explore Other Signs</h2>
+<section class="icons">
+  <a href="/filter/aries"><img class="btn" id="aries" src="/images/aries.png"></a>
+  <a href="/filter/taurus"><img class="btn" id="taurus" src="/images/taurus.png"></a>
+  <a href="/filter/gemini"><img class="btn" id="gem" src="/images/gem.png"></a>
+  <a href="/filter/cancer"><img class="btn" id="cancer" src="/images/cancer.png"></a>
+  <a href="/filter/leo"><img class="btn" id="leo" src="/images/leo.png"></a>
+  <a href="/filter/virgo"><img class="btn" id="virgo" src="/images/virgo.png"></a>
+  <a href="/filter/libra"><img class="btn" id="libra" src="/images/libra.png"></a>
+  <a href="/filter/scorpio"><img class="btn" id="scorpio" src="/images/scorpio.png"></a>
+  <a href="/filter/sagittarius"><img class="btn" id="sag" src="/images/sag.png"></a>
+  <a href="/filter/capricorn"><img class="btn" id="cap" src="/images/cap.png"></a>
+  <a href="/filter/aquarius"><img class="btn" id="aqua" src="/images/aqua.png"></a>
+  <a href="/filter/pisces"><img class="btn" id="pis" src="/images/pis.png"></a>
+</section>
+
+</section>
+
+  <script src="/main.js"></script>
+
+</body>
+</html>
