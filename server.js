@@ -6,7 +6,7 @@ const MongoClient = require('mongodb').MongoClient
 
 var db, collection;
 
-const url = "mongodb+srv://dbuser:db@cluster0.9xulq.mongodb.net/<dbname>?retryWrites=true&w=majority";
+const url = "mongodb+srv://dbuser:db@cluster0.9xulq.mongodb.net/horoscope?retryWrites=true&w=majority";
 const dbName = "horoscope";
 
 app.listen(port, () => {
