@@ -1,6 +1,6 @@
 # Express Horoscope Generator
 
-#### Project Scope: Update previous Horoscope Generator to use Express. The user enters their birth date in MM and DD. On the click of the button, the client side evalutes the date submitted and sends a request to the back end server with the corresponding sign. Then the server responds with the user's sign's name, image, and description. Here they can also click on the icons of the other horoscope signs to learn more about them.
+#### Project Scope: Update previous Horoscope Generator to use Express. The user enters their birth date in MM and DD. On the click of the button, the client side evaluates the date submitted and sends a request to the back end server with the corresponding sign. Then the server responds with the user's sign's name, image, and description. Here they can also click on the icons of the other horoscope signs to learn more about them.
 
 - Try it Here: https://express-horoscope.herokuapp.com/
 ![Horoscope Generator Home Screenshot](/horoMain.png)
